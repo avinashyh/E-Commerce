@@ -10,6 +10,20 @@
           <include name="testVerifyMessagePage"/>
         </methods>
       </class> <!-- com.ecommerce.test.VerifyErrorMessagePageTest -->
+      <class name="com.ecommerce.test.SonyXperiaMobilePageTest">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="testSonyXperiaMobilePage"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.ecommerce.test.SonyXperiaMobilePageTest -->
+      <class name="com.ecommerce.test.HomePageTest">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="testHomePage"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.ecommerce.test.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
